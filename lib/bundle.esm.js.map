@@ -1,1 +1,1 @@
-{"version":3,"file":"bundle.esm.js","sources":["../src/main.ts"],"sourcesContent":["let version = \"1.0.1\";\n\nexport default () => {\n  return `this version is ${version}`;\n};\n"],"names":[],"mappings":"AAAA,IAAI,OAAO,GAAG,OAAO,CAAC;AAEtB,YAAe;IACb,OAAO,qBAAmB,OAAS,CAAC;CACrC,EAAC;;;;"}
+{"version":3,"file":"bundle.esm.js","sources":["../src/main.ts"],"sourcesContent":["export default class Chip8 {\n  constructor() {\n    console.log(\"init\");\n  }\n}\n"],"names":[],"mappings":"AAAA;IACE;QACE,OAAO,CAAC,GAAG,CAAC,MAAM,CAAC,CAAC;KACrB;IACH,YAAC;AAAD,CAAC,IAAA;;;;;"}

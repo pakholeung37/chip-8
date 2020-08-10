@@ -3,24 +3,24 @@ import typescript from "rollup-plugin-typescript";
 import sourceMaps from "rollup-plugin-sourcemaps";
 
 export default {
-  input: "./src/main.ts",
+  input: "./src/index.ts",
   plugins: [
     typescript({
       exclude: "node_modules/**",
-      typescript: require("typescript")
+      typescript: require("typescript"),
     }),
-    sourceMaps()
+    sourceMaps(),
   ],
   output: [
     {
       format: "cjs",
       file: pkg.main,
-      sourcemap: true
+      sourcemap: true,
     },
     {
       format: "es",
       file: pkg.module,
-      sourcemap: true
-    }
-  ]
+      sourcemap: true,
+    },
+  ],
 };
