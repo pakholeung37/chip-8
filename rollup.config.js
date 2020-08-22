@@ -1,6 +1,6 @@
-import pkg from "./package.json";
-import typescript from "rollup-plugin-typescript";
-import sourceMaps from "rollup-plugin-sourcemaps";
+import pkg from "./package.json"
+import typescript from "rollup-plugin-typescript"
+import sourceMaps from "rollup-plugin-sourcemaps"
 
 export default {
   input: "./src/index.ts",
@@ -23,4 +23,4 @@ export default {
       sourcemap: true,
     },
   ],
-};
+}
