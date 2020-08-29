@@ -10,7 +10,7 @@
     "preserveConstEnums": false,
     "sourceMap": true,
     "downlevelIteration": true,
-    "lib": ["es6"]
+    "lib": ["es6", "DOM"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]

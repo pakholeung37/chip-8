@@ -1,2 +1,3 @@
-export const DISPLAY_HEIGHT = 600
-export const DISPLAY_WIDTH = 800
+export const DISPLAY_HEIGHT = 64
+export const DISPLAY_WIDTH = 32
+export const COLOR = "#33ff66"

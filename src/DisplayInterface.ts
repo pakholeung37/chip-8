@@ -1,7 +1,10 @@
 export default interface DisplayInterface {
   clear: () => void
-  draw: (x: number, y: number, value: number) => boolean
+  draw: (x: number, y: number, value: number) => number
   getKeys: () => number
-  waitKey: () => number
-  enableSound: () => boolean
+  waitKey: () => number | undefined
+  enableSound: () => void
+  disableSound: () => void
+  setKeys: (arg: number) => void
+  resetKeys: () => void
 }
